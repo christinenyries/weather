@@ -21,7 +21,7 @@
       </p>
       <img
         class="h-auto w-[150px]"
-        :src="`http://openweathermap.org/img/wn/${current.weather[0].icon}@2x.png`"
+        :src="`https://openweathermap.org/img/wn/${current.weather[0].icon}@2x.png`"
         alt="current weather icon"
       />
     </div>
@@ -43,7 +43,7 @@
             </p>
             <img
               class="h-[50px] w-auto object-cover"
-              :src="`http://openweathermap.org/img/wn/${forecast.weather[0].icon}@2x.png`"
+              :src="`https://openweathermap.org/img/wn/${forecast.weather[0].icon}@2x.png`"
               alt="hourly weather forecast icon"
             />
             <p class="text-xl">{{ Math.round(forecast.main.temp) }}&deg;C</p>
@@ -62,7 +62,7 @@
           </p>
           <img
             class="h-[50px] w-[50px] object-cover"
-            :src="`http://openweathermap.org/img/wn/${forecast.weather[0].icon}@2x.png`"
+            :src="`https://openweathermap.org/img/wn/${forecast.weather[0].icon}@2x.png`"
             alt="daily weather forecast icon"
           />
           <div class="flex flex-1 justify-end gap-2">
